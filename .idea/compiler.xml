@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-order" />
+        <module name="cloud-item2" />
+        <module name="cloud-eureka" />
+        <module name="cloud" />
+        <module name="cloud-eureka2" />
+        <module name="cloud-item" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud" target="1.8" />
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-eureka2" target="1.8" />
+      <module name="cloud-item" target="1.8" />
+      <module name="cloud-item2" target="1.8" />
+      <module name="cloud-order" target="1.8" />
+      <module name="clouditem" target="1.8" />
+      <module name="clouditem2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-eureka2" options="-parameters" />
+      <module name="cloud-item" options="-parameters" />
+      <module name="cloud-item2" options="-parameters" />
+      <module name="cloud-order" options="-parameters" />
+      <module name="clouditem" options="-parameters" />
+      <module name="clouditem2" options="-parameters" />
+    </option>
+  </component>
+</project>
